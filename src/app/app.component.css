@@ -1,0 +1,53 @@
+.container {
+  padding: 50px;
+  margin: 20px;
+  background-color: brown;
+}
+
+.container h1{
+  color: white;
+  font-size: 50px;
+}
+
+.letras a{
+  color: pink;
+  font-size: 30px;
+}
+
+.letras {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+.btn-danger {
+  margin: 20px;
+  padding: 20px;
+  background-color: red;
+}
+
+.btn-primary {
+  margin: 20px;
+  padding: 20px;
+  background-color: blue;
+
+}
+
+.btn-success {
+  margin: 20px;
+  padding: 20px;
+  background-color: greenyellow;
+
+}
+
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
